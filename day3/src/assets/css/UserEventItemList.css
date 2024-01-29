@@ -1,0 +1,39 @@
+/* UserEventItem.css */
+
+.event-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .event-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .detail-label {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .detail-value {
+    flex-grow: 1;
+  }
+  
+  .book-button button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-button button:hover {
+    background-color: #0056b3;
+  }
+  
+
