@@ -1,0 +1,182 @@
+/* Add this CSS to your existing stylesheet or create a new one */
+
+.mybookudb {
+    margin-top: 20px;
+    /* position: fixed; */
+    top: 150px;
+    right: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(218, 218, 218, 0.768);
+}
+
+.booking-table, .payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.booking-table th, .booking-table td, .payment-table th, .payment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.booking-table th, .payment-table th {
+    background-color: #4e5db2;
+    color: #fff;
+}
+
+.booking-table tbody tr:hover, .payment-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.paymentudb {
+    padding-top: 100px;
+    box-shadow: 0 0 5px rgba(218, 218, 218, 0.768);
+    padding-bottom: 50px;
+    padding: 20px;
+
+}
+
+.payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.payment-table th, .payment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.payment-table th {
+    background-color: #4e5db2;
+    color: #fff;
+}
+
+.payment-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .mybookudb {
+      position: static;
+      margin-top: 20px;
+      padding: 20px;
+      box-shadow: none;
+    }
+  
+    .paymentudb {
+      padding-top: 20px;
+    }
+  }
+  
+  .event-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .event-card {
+    width: 250px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .event-details {
+    padding: 15px;
+  }
+  
+  .event-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .event-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+
+  
+  .udb_part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 40vh;
+  }
+  
+  .titleudb {
+    color: #4e5db2;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2rem;
+  }
+  
+  .widgetudb {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 65%; /* Adjust the width as needed */
+  }
+  
+  .widget-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    /* backdrop-filter: blur(5px); */
+  }
+  
+  .widget-box h2 {
+    margin: 0;
+    color: #333;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  }
+  
+  .widget-box p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #4e5db2;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  }
+  
+  @media (max-width: 768px) {
+    .widgetudb {
+      flex-direction: column;
+      width: 50%; /* Adjust the width for smaller screens */
+      /* height:80% */
+    }
+  }
+  
+  .graphs-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bar-graph,
+  .line-graph {
+    width: 48%; /* Adjust as needed, leave some space for margins */
+    margin-bottom: 20px;
+  }
+  
