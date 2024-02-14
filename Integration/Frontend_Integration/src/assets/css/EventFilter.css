@@ -1,0 +1,40 @@
+/* EventFilter.css */
+
+/* Basic styling for the container */
+.event-filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the label */
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  /* Style for the select dropdown */
+  select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the select dropdown */
+  select:hover {
+    border-color: #555; /* Change the color on hover */
+  }
+  
+  /* Focus effect for the select dropdown */
+  select:focus {
+    outline: none;
+    border-color: #007bff; /* Change the color when focused */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  

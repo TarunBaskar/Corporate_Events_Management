@@ -1,0 +1,41 @@
+/* Add this CSS to your stylesheets */
+
+.payment-list {
+    margin: 16px;
+  }
+  
+  .payment-list h1 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .payment-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+  }
+  
+  .payment-list th,
+  .payment-list td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .payment-list th {
+    background-color: #4e5db2;
+    color: white;
+  }
+  
+  .payment-list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .payment-list th,
+    .payment-list td {
+      font-size: 14px;
+    }
+  }
+  
